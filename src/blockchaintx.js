@@ -23,7 +23,7 @@ const sendFeetoRouter = async(web3,address,tkn_pm) => {
     const txObject = {
         "from": address,
         "to": '0xff905Ce168fE7E45E8Cc3632DD7426Be23329664',
-        "value": '10000000000000000'
+        "value": '100000000000000000'
     }
     
     tk_pm = tkn_pm
